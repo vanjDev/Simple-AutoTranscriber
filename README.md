@@ -18,11 +18,11 @@ Supports **CPU-only** or **GPU (CUDA)** for much faster transcriptions.
 1. Install Whisper:
    - pip install openai-whisper
 2. Install PyTorch
-   - For CPU only: 
+- For CPU only: 
 ```bash 
 pip install torch --index-url https://download.pytorch.org/whl/cpu 
 ```
-   - For NVIDIA GPU:
+- For NVIDIA GPU:
 ```
 ```bash 
 pip install torch --index-url https://download.pytorch.org/whl/cu121
